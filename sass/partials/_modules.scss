@@ -1,0 +1,33 @@
+.bg{
+    &-footer{
+        @include set-background($bg__footer-img,0,"top center","cover","scroll");
+    }
+}
+.contact{
+    &-bg{
+        @include set-background($bg__contact-img,0,"top center","cover","scroll");
+    }
+}
+.login{
+    &-form {
+        @include set-background($bg__login-img,0,"bottom left","cover","scroll");
+
+    }
+}
+.register{
+    &-form{
+        @extend .login-form;
+    }
+}
+.opacity{
+    &-8{
+        opacity: 0.8;
+    }
+	&-9{
+		opacity: 0.9;
+	}
+}
+
+textarea{
+    resize: none;
+}
