@@ -25,8 +25,55 @@ body, html {
 .minh-100vh {
   min-height: 100vh;
 }
+/* line 14, ../../sass/partials/_minh.scss */
+.minh-footer-adj {
+  min-height: calc( 100vh - 57px );
+  min-height: -o-calc( 100vh - 57px );
+  min-height: -moz-calc( 100vh - 57px );
+  min-height: -webkit-calc( 100vh - 57px );
+}
 
 /* line 2, ../../sass/partials/_modules.scss */
+.bg-basket {
+  background-attachment: fixed;
+  background-image: url(../img/basket.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 5, ../../sass/partials/_modules.scss */
+.bg-body-wash {
+  background-attachment: scroll;
+  background-image: url(../img/skincare/body-wash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 8, ../../sass/partials/_modules.scss */
+.bg-brightening {
+  background-attachment: scroll;
+  background-image: url(../img/skincare/brightening.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 11, ../../sass/partials/_modules.scss */
+.bg-brightening-mask {
+  background-attachment: scroll;
+  background-image: url(../img/skincare/natural-mask.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 14, ../../sass/partials/_modules.scss */
+.bg-consult {
+  background-attachment: scroll;
+  background-image: url(../img/consult.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 17, ../../sass/partials/_modules.scss */
 .bg-footer {
   background-attachment: scroll;
   background-image: url(../img/footer.jpg);
@@ -34,8 +81,32 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
 }
+/* line 20, ../../sass/partials/_modules.scss */
+.bg-home {
+  background-attachment: scroll;
+  background-image: url(../img/home.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 23, ../../sass/partials/_modules.scss */
+.bg-natural-mask {
+  background-attachment: scroll;
+  background-image: url(../img/skincare/natural-mask.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 26, ../../sass/partials/_modules.scss */
+.bg-products {
+  background-attachment: fixed;
+  background-image: url(../img/products.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-/* line 7, ../../sass/partials/_modules.scss */
+/* line 31, ../../sass/partials/_modules.scss */
 .contact-bg {
   background-attachment: scroll;
   background-image: url(../img/coming.jpg);
@@ -44,7 +115,7 @@ body, html {
   background-size: cover;
 }
 
-/* line 12, ../../sass/partials/_modules.scss */
+/* line 36, ../../sass/partials/_modules.scss */
 .login-form, .register-form {
   background-attachment: scroll;
   background-image: url(../img/coming.jpg);
@@ -53,20 +124,36 @@ body, html {
   background-size: cover;
 }
 
-/* line 23, ../../sass/partials/_modules.scss */
+/* line 47, ../../sass/partials/_modules.scss */
 .opacity-8 {
   opacity: 0.8;
 }
-/* line 26, ../../sass/partials/_modules.scss */
+/* line 50, ../../sass/partials/_modules.scss */
 .opacity-9 {
   opacity: 0.9;
 }
 
-/* line 31, ../../sass/partials/_modules.scss */
+/* line 55, ../../sass/partials/_modules.scss */
+.text-dark-green {
+  color: #286439 !important;
+}
+
+/* line 59, ../../sass/partials/_modules.scss */
 textarea {
   resize: none;
 }
 
+@media all and (max-width: 767px) {
+  /* line 65, ../../sass/partials/_modules.scss */
+  .bg-collapsed-green {
+    background-color: #89cf9d !important;
+  }
+
+  /* line 70, ../../sass/partials/_modules.scss */
+  .border-collapsed-dark-green {
+    border: 1px solid #46ac63 !important;
+  }
+}
 /* line 31, ../../sass/partials/_mixins.scss */
 .error-s1 {
   background-attachment: fixed;
