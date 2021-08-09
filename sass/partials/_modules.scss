@@ -1,6 +1,30 @@
 .bg{
+    &-basket{        
+        @include set-background($bg__basket-img,0,"center","cover","fixed");
+    }
+    &-body-wash{        
+        @include set-background($bg__body-wash-img,0,"center","cover","scroll");
+    }
+    &-brightening{        
+        @include set-background($bg__brightening-img,0,"center","cover","scroll");
+    }
+    &-brightening-mask{        
+        @include set-background($bg__brightening-mask-img,0,"center","cover","scroll");
+    }
+    &-consult{        
+        @include set-background($bg__consult-img,0,"top center","cover","scroll");
+    }
     &-footer{
         @include set-background($bg__footer-img,0,"top center","cover","scroll");
+    }
+    &-home{
+        @include set-background($bg__home-img,0,"top center","cover","scroll");
+    }
+    &-natural-mask{        
+        @include set-background($bg__natural-mask-img,0,"center","cover","scroll");
+    }
+    &-products{        
+        @include set-background($bg__products-img,0,"center","cover","fixed");
     }
 }
 .contact{
@@ -27,7 +51,24 @@
 		opacity: 0.9;
 	}
 }
-
+.text{
+    &-dark-green{
+        color: darken($color__dark-green,20%)!important;      
+    }
+}
 textarea{
     resize: none;
+}
+
+@media all and (max-width:767px){
+    .bg{
+        &-collapsed-green{
+            background-color: $color__green!important;
+        }
+    }
+    .border{
+        &-collapsed-dark-green{
+            border: 1px solid $color__dark-green!important;
+        }
+    }
 }

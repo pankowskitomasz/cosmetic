@@ -13,7 +13,7 @@ import Skincare from "./views/skincare";
 
 const appCfg = {
     routes:[
-        {navItem:true, exact:true, path:"/",name:"Home",view:<Home/>},  
+        {navItem:true, exact:true, path:"/",name:"Home",view:<Home backLink={{name:"See products",path:"/products"}}/>},  
         {navItem:true, exact:true, path:"/consult",name:"Consult",view:<Consult/>},   
         {navItem:true, exact:true, path:"/products",name:"Products",view:<Products/>},       
         {navItem:true, exact:true, path:"/skincare",name:"Skincare",view:<Skincare/>}, 

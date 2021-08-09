@@ -1,11 +1,11 @@
 import React,{Component} from "react";
-
+import ConsultContent from "../components/consult_content";
 
 class Consult extends Component{
     render(){
         return(          
-            <main className="minh-100vh">     
-
+            <main className="minh-footer-adj d-flex align-items-center bg-consult">     
+                <ConsultContent/>
             </main>
         );
     }

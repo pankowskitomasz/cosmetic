@@ -1,9 +1,17 @@
+$bg__basket-img: "../img/basket.jpg";
+$bg__body-wash-img: "../img/skincare/body-wash.jpg";
+$bg__brightening-img: "../img/skincare/brightening.jpg";
+$bg__brightening-mask-img: "../img/skincare/natural-mask.jpg";
 $bg__comingsoon-img: "../img/coming.jpg";
 $bg__contact-img: "../img/coming.jpg";
+$bg__consult-img: "../img/consult.jpg";
 $bg__error-img: "../img/error.jpg";
 $bg__footer-img: "../img/footer.jpg";
+$bg__home-img: "../img/home.jpg";
 $bg__login-img: "../img/coming.jpg";
+$bg__natural-mask-img: "../img/skincare/natural-mask.jpg";
 $bg__privacy-img: "../img/privacy.jpg";
+$bg__products-img: "../img/products.jpg";
 $bg__classes:
     "error",
     "comingsoon",
@@ -14,7 +22,10 @@ $bg__aoa:
     $bg__privacy-img;
 $box__shadow: 2px 2px 5px #333;
 $color__container-bg: #333;
+$color__green: #89cf9d;
+$color__dark-green: darken($color__green,20%);
 $color__shadow: #000;
+$footer__height: 57px;
 $header__height: 0px;
 $section__min-height: 100vh;
 $text__shadow: 1px 1px 4px $color__shadow;

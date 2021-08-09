@@ -21,7 +21,7 @@ class Navigation extends Component{
                 </Navbar.Brand>
                 <Navbar.Toggle />
                 <Navbar.Collapse>
-                    <Nav className="ms-auto text-end px-3">
+                    <Nav className="ms-auto text-end px-3 border-collapsed-dark-green bg-collapsed-green opacity-9">
                         {menuContent}
                     </Nav>
                 </Navbar.Collapse>
