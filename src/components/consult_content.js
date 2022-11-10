@@ -11,7 +11,7 @@ class ConsultContent extends Component{
         return(        
             <Container fluid className={"align-items-end py-3 d-flex h-50vh maxh-600 "+this.props.classExt}>
                 <Row className="mx-auto text-center w-100 pt-4 pb-2">
-                    <Col xs={10} lg={6} className="mx-auto p-0 d-flex align-items-center">
+                    <Col xs={12} lg={6} className="mx-auto p-0 d-flex align-items-center">
                         <div className="p-5 text-lg-start text-center">
                             <h1 className="display-6 text-white fw-bold text-uppercase text-shadow">
                                 Find the best
@@ -25,7 +25,7 @@ class ConsultContent extends Component{
                                 you.
                             </p>
                             <div className="text-success lead fw-bold text-center p-3">
-                                <span class="px-3 py-2 border border-success rounded-pill">
+                                <span className="px-3 py-2 border border-success rounded-pill">
                                     0-900 876 543
                                 </span>
                             </div>

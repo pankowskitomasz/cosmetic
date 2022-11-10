@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Lobster";
+  src: url("../fonts/Lobster-Regular.ttf");
+}
 /* line 1, ../../sass/partials/_layout.scss */
 * {
   box-sizing: border-box;
@@ -139,17 +143,23 @@ body, html {
 }
 
 /* line 59, ../../sass/partials/_modules.scss */
+h1, h2, h3, h4, h5, h6, .nav-link {
+  font-family: "Lobster";
+  letter-spacing: 1px;
+}
+
+/* line 63, ../../sass/partials/_modules.scss */
 textarea {
   resize: none;
 }
 
 @media all and (max-width: 767px) {
-  /* line 65, ../../sass/partials/_modules.scss */
+  /* line 69, ../../sass/partials/_modules.scss */
   .bg-collapsed-green {
     background-color: #89cf9d !important;
   }
 
-  /* line 70, ../../sass/partials/_modules.scss */
+  /* line 74, ../../sass/partials/_modules.scss */
   .border-collapsed-dark-green {
     border: 1px solid #46ac63 !important;
   }
